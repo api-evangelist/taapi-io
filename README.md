@@ -64,5 +64,147 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-TAAPI.IO is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://taapi.io/
+TAAPI.IO provides a comprehensive Technical Analysis Indicators API for crypto and US stocks, offering over 250 indicators, real‑time OHLCV candles, and chart pattern detection. The service supports REST and WebSocket endpoints, multiple exchanges (Binance, Bybit, Kraken, Gate.io) and US equities, with high uptime, global usage, and no credit‑card required to start. It targets developers building trading bots, analytics platforms, and financial applications.
+
+**Areas:** Company · API · Finance · Crypto · Technical-Analysis
+
+## TAAPI.IO on APIs.io
+
+Everything profiled for TAAPI.IO is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/taapi-io/](https://apis.io/providers/taapi-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (15)
+
+- [TAAPI.IO Cycle API](https://apis.io/apis/taapi-io/taapi-io-cycle-api/) — Cycle indicators
+- [TAAPI.IO Divergence API](https://apis.io/apis/taapi-io/taapi-io-divergence-api/) — Divergence indicators
+- [TAAPI.IO Indicator Calls API](https://apis.io/apis/taapi-io/taapi-io-indicator-calls-api/) — Calculate technical indicators — either one indicator per request (Single) or multiple indicators across multiple assets in a single round-trip (Bulk).
+- [TAAPI.IO Manual Candles API](https://apis.io/apis/taapi-io/taapi-io-manual-candles-api/) — Calculate indicators over a list of provided candles instead of fetching them from an exchange. You must provide your own OHLCV data.
+- [TAAPI.IO Market Data API](https://apis.io/apis/taapi-io/taapi-io-market-data-api/) — Raw OHLCV (Open, High, Low, Close, Volume) candle data from supported exchanges and markets.
+- [TAAPI.IO Market Structure API](https://apis.io/apis/taapi-io/taapi-io-market-structure-api/) — Market Structure indicators
+- [TAAPI.IO Math API](https://apis.io/apis/taapi-io/taapi-io-math-api/) — Math indicators
+- [TAAPI.IO Momentum API](https://apis.io/apis/taapi-io/taapi-io-momentum-api/) — Momentum indicators
+- [TAAPI.IO Pattern Recognition - Advanced API](https://apis.io/apis/taapi-io/taapi-io-pattern-recognition-advanced-api/) — Pattern Recognition - Advanced indicators
+- [TAAPI.IO Pattern Recognition - Simple API](https://apis.io/apis/taapi-io/taapi-io-pattern-recognition-simple-api/) — Pattern Recognition - Simple indicators
+- [TAAPI.IO Reference Data API](https://apis.io/apis/taapi-io/taapi-io-reference-data-api/) — Endpoints to discover available exchanges and supported market symbols.
+- [TAAPI.IO Statistics API](https://apis.io/apis/taapi-io/taapi-io-statistics-api/) — Statistics indicators
+- [TAAPI.IO Trend API](https://apis.io/apis/taapi-io/taapi-io-trend-api/) — Trend indicators
+- [TAAPI.IO Volatility API](https://apis.io/apis/taapi-io/taapi-io-volatility-api/) — Volatility indicators
+- [TAAPI.IO Volume API](https://apis.io/apis/taapi-io/taapi-io-volume-api/) — Volume indicators
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [TAAPI.IO Agentic Access](https://apis.io/agentic-access/taapi-io/taapi-io-agentic-access/)
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [Candle](https://apis.io/schemas/taapi-io/taapi-io-candle/)
+- [PendingResponse](https://apis.io/schemas/taapi-io/taapi-io-pending-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Taapi Io Context](https://apis.io/jsonld/taapi-io/taapi-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [TAAPI.IO API Rules](https://apis.io/rules/taapi-io/taapi-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [TAAPI.IO Authentication](https://apis.io/security/taapi-io/taapi-io-authentication/)
+- [TAAPI.IO Domain Security](https://apis.io/security/taapi-io/taapi-io-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [TAAPI.IO Plans Pricing](https://apis.io/plans/taapi-io/taapi-io-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [TAAPI.IO Rate Limits](https://apis.io/rate-limits/taapi-io/taapi-io-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://taapi.io/)
+- [Documentation](https://taapi.io/documentation/)
+- [Getting started](https://taapi.io/documentation/)
+- [API reference](https://taapi.io/documentation/openapi/)
+- [Pricing](https://taapi.io/pricing/)
+- [Support](https://taapi.io/contact/)
+- [Blog](https://taapi.io/news/)
+- [Terms of service](https://taapi.io/terms-of-service/)
+- [Privacy policy](https://taapi.io/privacy-policy/)
+- [Status](https://status.taapi.io/)
+
+## API Evangelist rating
+
+**Kin Score 61.7** — strong · rubric 0.27.0 · scored 2026-11-12
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 56.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 44.2 |
+| Developer ergonomics | 61.2 |
+| Access clarity | 60.0 |
+
+**Agent readiness 42.7** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | mostly (partial credit) |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/taapi-io/](https://apis.io/providers/taapi-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for TAAPI.IO: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/taapi-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
